@@ -1,0 +1,106 @@
+name: Auto Update M3U Playlist
+
+on:
+  schedule:
+    # Runs twice a day (00:00 and 12:00 UTC) to keep playlists fresh without
+    # hammering upstream sources. Adjust cron as needed.
+    - cron: '0 0,12 * * *'
+  workflow_dispatch:
+
+# Prevent concurrent runs from stepping on each other (also a form of rate-limit protection)
+concurrency:
+  group: m3u-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-m3u:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install System Dependencies (ffmpeg/ffprobe)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg
+          ffprobe -version | head -n 1
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install aiohttp
+
+      - name: Run Header-Aware M3U Checker
+        env:
+          PYTHONUNBUFFERED: "1"
+          PYTHONIOENCODING: "utf-8"
+        run: |
+          python auto_m3u.py
+
+      - name: Show Results Summary
+        if: always()
+        run: |
+          echo "=== Generated files ==="
+          ls -la working*.m3u 2>/dev/null || echo "No working playlists generated"
+          echo ""
+          echo "=== Channel counts ==="
+          for f in working*.m3u; do
+            [ -f "$f" ] || continue
+            count=$(grep -c '^#EXTINF' "$f" || true)
+            echo "$f: $count channels"
+          done
+
+      - name: Commit and Push Changes
+        if: success()
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+
+          # Stage only the playlists + log (do not stage unrelated files)
+          git add working*.m3u 2>/dev/null || true
+          git add checker.log 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "🚀 Auto Update: M3U playlists ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+
+          # Retry push a few times in case of transient failures
+          for i in 1 2 3; do
+            if git push; then
+              echo "Push succeeded."
+              exit 0
+            fi
+            echo "Push attempt $i failed, retrying after rebase..."
+            git pull --rebase --autostash || true
+            sleep 5
+          done
+
+          echo "Push failed after retries." >&2
+          exit 1
+
+      - name: Upload artifacts (playlists + log)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: m3u-playlists-${{ github.run_number }}
+          path: |
+            working*.m3u
+            checker.log
+          if-no-files-found: warn
+          retention-days: 14
