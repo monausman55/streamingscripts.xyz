@@ -2,22 +2,24 @@ name: Auto Update M3U Playlist
 
 on:
   schedule:
-    # Runs twice a day (00:00 and 12:00 UTC) to keep playlists fresh without
-    # hammering upstream sources. Adjust cron as needed.
     - cron: '0 0,12 * * *'
   workflow_dispatch:
 
-# Prevent concurrent runs from stepping on each other (also a form of rate-limit protection)
 concurrency:
   group: m3u-update
   cancel-in-progress: false
+
+# Silence Node 20 deprecation warning
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
 permissions:
   contents: write
 
 jobs:
   update-m3u:
-    runs-on: ubuntu-latest
+    # Pin to a known-good Ubuntu version so apt packages don't shift under you
+    runs-on: ubuntu-24.04
     timeout-minutes: 90
 
     steps:
@@ -30,7 +32,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
+          cache: 'pip'          # works once requirements.txt exists
 
       - name: Install System Dependencies (ffmpeg/ffprobe)
         run: |
@@ -41,9 +43,12 @@ jobs:
       - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install aiohttp
+          pip install -r requirements.txt
+        # requirements.txt contains: aiohttp>=3.9.0
 
       - name: Run Header-Aware M3U Checker
+        id: checker
+        continue-on-error: true        # <-- let us inspect logs even on failure
         env:
           PYTHONUNBUFFERED: "1"
           PYTHONIOENCODING: "utf-8"
@@ -54,7 +59,7 @@ jobs:
         if: always()
         run: |
           echo "=== Generated files ==="
-          ls -la working*.m3u 2>/dev/null || echo "No working playlists generated"
+          ls -la working*.m3u 2>/dev/null || echo "(none)"
           echo ""
           echo "=== Channel counts ==="
           for f in working*.m3u; do
@@ -62,14 +67,23 @@ jobs:
             count=$(grep -c '^#EXTINF' "$f" || true)
             echo "$f: $count channels"
           done
+          echo ""
+          echo "=== Last 50 lines of checker.log ==="
+          tail -n 50 checker.log 2>/dev/null || echo "(no log)"
+
+      - name: Fail if no output produced
+        if: always()
+        run: |
+          if ! ls working*.m3u >/dev/null 2>&1; then
+            echo "::error::Script produced no working_*.m3u files. Check logs above."
+            exit 1
+          fi
 
       - name: Commit and Push Changes
         if: success()
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "actions@github.com"
-
-          # Stage only the playlists + log (do not stage unrelated files)
           git add working*.m3u 2>/dev/null || true
           git add checker.log 2>/dev/null || true
 
@@ -80,7 +94,6 @@ jobs:
 
           git commit -m "🚀 Auto Update: M3U playlists ($(date -u +'%Y-%m-%d %H:%M UTC'))"
 
-          # Retry push a few times in case of transient failures
           for i in 1 2 3; do
             if git push; then
               echo "Push succeeded."
