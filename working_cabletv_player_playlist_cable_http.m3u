@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="-",&Xplor HD - Rs 4.00
+http://103.174.195.62:8000/play/a0ce
 #EXTINF:-1 group-title="-",24_news
 http://103.76.111.58:8000/play/a002
 #EXTINF:-1 group-title="-",365
@@ -49,6 +51,8 @@ http://103.76.111.58:8000/play/a06l
 http://103.76.111.58:8000/play/a06k
 #EXTINF:-1 group-title="-",capital_tv
 http://103.76.111.58:8000/play/a083
+#EXTINF:-1 group-title="-",Cartoon Network HD+ - Rs 7.00
+http://103.174.195.62:8000/play/a0db
 #EXTINF:-1 group-title="-",city_21
 http://103.76.111.58:8000/play/a007
 #EXTINF:-1 group-title="-",city_41
@@ -59,6 +63,10 @@ http://103.76.111.58:8000/play/a003
 http://103.76.111.58:8000/play/a08y
 #EXTINF:-1 group-title="-",Discover Pakistan
 http://103.76.111.58:8000/play/a01z
+#EXTINF:-1 group-title="-",Discovery Kids - Rs 4.00
+http://103.174.195.62:8000/play/a0do
+#EXTINF:-1 group-title="-",Disney Junior - Rs 4.00
+http://103.174.195.62:8000/play/a0eq
 #EXTINF:-1 group-title="-",Duniya_news
 http://103.76.111.58:8000/play/a00e
 #EXTINF:-1 group-title="-",enigma cartoon
@@ -73,6 +81,8 @@ http://103.76.111.180:8000/play/a09h
 http://103.76.111.180:8000/play/a09j
 #EXTINF:-1 group-title="-",enigma_earth
 http://103.76.111.180:8000/play/a09c
+#EXTINF:-1 group-title="-",Eurosport HD - Rs 6.00
+http://103.174.195.62:8000/play/a00i
 #EXTINF:-1 group-title="-",Filma_max
 http://103.76.111.58:8000/play/a00c
 #EXTINF:-1 group-title="-",FILMAX
@@ -95,12 +105,16 @@ http://103.76.111.58:8000/play/a07i
 http://103.76.111.58:8000/play/a00h
 #EXTINF:-1 group-title="-",hadayat tv
 http://103.76.111.58:8000/play/a08o
+#EXTINF:-1 group-title="-",History TV18 HD - Rs 7.00
+http://103.174.195.62:8000/play/a003
 #EXTINF:-1 group-title="-",hum news
 http://103.76.111.58:8000/play/a076
 #EXTINF:-1 group-title="-",hum sitary
 http://103.76.111.58:8000/play/a078
 #EXTINF:-1 group-title="-",hum tv (clone)
 http://103.76.111.58:8000/play/a06u
+#EXTINF:-1 group-title="-",Hungama - Rs 2.00
+http://103.174.195.62:8000/play/a0dj
 #EXTINF:-1 group-title="-",inplus pakistan
 http://103.76.111.58:8000/play/a08v
 #EXTINF:-1 group-title="-",Kay-2 Tv HD
@@ -125,6 +139,20 @@ http://103.76.111.58:8000/play/a05x
 http://103.76.111.58:8000/play/a077
 #EXTINF:-1 group-title="-",minimax 2
 http://103.76.111.58:8000/play/a08p
+#EXTINF:-1 group-title="-",MN+ HD - Rs 10.00
+http://103.174.195.62:8000/play/a0ci
+#EXTINF:-1 group-title="-",MNX - Rs 5.00
+http://103.174.195.62:8000/play/a0b3
+#EXTINF:-1 group-title="-",Movies Now HD - Rs 14.00
+http://103.174.195.62:8000/play/a02l
+#EXTINF:-1 group-title="-",MTV HD - Rs 2.00
+http://103.174.195.62:8000/play/a00u
+#EXTINF:-1 group-title="-",Nick  - Rs 6.00
+http://103.174.195.62:8000/play/a044
+#EXTINF:-1 group-title="-",Nick HD+ - Rs 10.00
+http://103.174.195.62:8000/play/a0ch
+#EXTINF:-1 group-title="-",Nick Jr. - Rs 1.00
+http://103.174.195.62:8000/play/a02d
 #EXTINF:-1 group-title="-",Paigham Pashto
 http://103.76.111.58:8000/play/a050
 #EXTINF:-1 group-title="-",planet tv
@@ -137,6 +165,8 @@ http://103.76.111.58:8000/play/a058
 http://103.76.111.58:8000/play/a08n
 #EXTINF:-1 group-title="-",ROHI
 http://103.76.111.58:8000/play/a005
+#EXTINF:-1 group-title="-",Romedy Now - Rs 5.00
+http://103.174.195.62:8000/play/a00m
 #EXTINF:-1 group-title="-",SAB_tv_76.6 (
 http://103.76.111.58:8000/play/a06z
 #EXTINF:-1 group-title="-",Samma_news
@@ -145,12 +175,20 @@ http://103.76.111.58:8000/play/a04u
 http://103.76.111.58:8000/play/a080
 #EXTINF:-1 group-title="-",SAUDI CH For Sunnah HD
 http://103.76.111.58:8000/play/a07r
+#EXTINF:-1 group-title="-",SKY CINEMA ACTION HD
+http://103.174.195.62:8000/play/a0be
+#EXTINF:-1 group-title="-",Sonic Nickelodeon - Rs 1.00
+http://103.174.195.62:8000/play/a02g
 #EXTINF:-1 group-title="-",Specail_tv_76.6
 http://103.76.111.58:8000/play/a06y
 #EXTINF:-1 group-title="-",ten sports
 http://103.76.111.58:8000/play/a06t
 #EXTINF:-1 group-title="-",times HD
 http://103.76.111.58:8000/play/a02w
+#EXTINF:-1 group-title="-",TLC HD - Rs 3.00
+http://103.174.195.62:8000/play/a02o
+#EXTINF:-1 group-title="-",Travelxp HD - Rs 9.00
+http://103.174.195.62:8000/play/a0d3
 #EXTINF:-1 group-title="-",Tv 2DAY
 http://103.76.111.58:8000/play/a03z
 #EXTINF:-1 group-title="-",Tv_2_day_76.6
@@ -169,10 +207,18 @@ http://181.205.130.194:4000/play/a0fp
 http://207.248.3.81:8081/play/a0r2
 #EXTINF:-1 group-title="Bangladesh",TNT Sports Premiun HD
 http://181.205.130.194:4000/play/a0e4
+#EXTINF:-1 group-title="India",Colors Cineplex HD - Rs 19.00
+http://103.174.195.62:8000/play/a06n
+#EXTINF:-1 group-title="India",Colors Infinity HD - Rs 15.00
+http://103.174.195.62:8000/play/a0cy
+#EXTINF:-1 group-title="India",SONY BBC EARTH HD - Rs 19.00
+http://103.174.195.62:8000/play/a005
 #EXTINF:-1 group-title="India",Sony HD
 http://207.248.3.81:8081/play/a0q5
 #EXTINF:-1 group-title="India",Sony Movies
 http://207.248.3.81:8081/play/a0u9
+#EXTINF:-1 group-title="India",SONY YAY! - Rs 4.00
+http://103.174.195.62:8000/play/a0ei
 #EXTINF:-1 group-title="India",STAR CHANNEL
 http://181.205.130.194:4000/play/a06k
 #EXTINF:-1 group-title="India",Star Channel HD
@@ -359,6 +405,8 @@ http://207.248.3.81:8081/play/a0ne
 http://181.205.130.194:4000/play/a0fb
 #EXTINF:-1 group-title="Others",History Channel HD
 http://207.248.3.81:8081/play/a0q3
+#EXTINF:-1 group-title="Others",Hit List
+http://181.205.130.194:4000/play/a0b0
 #EXTINF:-1 group-title="Others",Home & Health HD
 http://207.248.3.81:8081/play/a0td
 #EXTINF:-1 group-title="Others",HomeandHealth
@@ -421,6 +469,8 @@ http://181.205.130.194:4000/play/a07v
 http://207.248.3.81:8081/play/a0ti
 #EXTINF:-1 group-title="Others",Retro Music TV
 http://46.149.191.219:9114/play/a00k
+#EXTINF:-1 group-title="Others",RT - ESPAÑOL
+http://181.205.130.194:4000/play/a0f8
 #EXTINF:-1 group-title="Others",Senal Colombia
 http://181.205.130.194:4000/play/a08k
 #EXTINF:-1 group-title="Others",Sport 1 HD CZ
@@ -479,3 +529,5 @@ http://77.46.130.252:99/maxsport1
 http://77.46.130.252:99/maxsport2
 #EXTINF:-1 tvg-id="MaxSport3.bg@SD" tvg-logo="https://i.imgur.com/eGiGgZ2.png" group-title="Sports",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Max Sport 3
 http://77.46.130.252:99/maxsport3
+#EXTINF:-1 tvg-id="cinebox.bg@SD" tvg-logo="https://i.imgur.com/Ff8iaVP.png" group-title="VOD / Movies",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="VOD / Movies",cine.box
+http://212.70.131.37:8000/play/a08b
