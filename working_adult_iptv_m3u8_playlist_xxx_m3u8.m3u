@@ -1,4 +1,52 @@
 #EXTM3U
+#EXTINF:-1 group-title="-",Babes TV
+http://185.63.254.139:8000/play/adult-babes-tv/index.m3u8
+#EXTINF:-1 group-title="-",Blue Hustler
+http://185.63.254.139:8000/play/adult-blue-hustler/index.m3u8
+#EXTINF:-1 group-title="-",Brunette
+http://185.63.254.139:8000/play/adult-brunette/index.m3u8
+#EXTINF:-1 group-title="-",Erotic 5
+http://185.63.254.139:8000/play/adult-erotic-5/index.m3u8
+#EXTINF:-1 group-title="-",Erotic 7
+http://185.63.254.139:8000/play/adult-erotic-7/index.m3u8
+#EXTINF:-1 group-title="-",Erotic 8
+http://185.63.254.139:8000/play/adult-erotic-8/index.m3u8
+#EXTINF:-1 group-title="-",Extasy HD
+http://185.63.254.139:8000/play/adult-extasy/index.m3u8
+#EXTINF:-1 group-title="-",FAP TV 4
+http://185.63.254.139:8000/play/adult-fap-tv-4/index.m3u8
+#EXTINF:-1 group-title="-",FAP TV Compilation
+http://185.63.254.139:8000/play/adult-fap-tv-compilation/index.m3u8
+#EXTINF:-1 group-title="-",FAP TV Lesbian
+http://185.63.254.139:8000/play/adult-fap-tv-lesbian/index.m3u8
+#EXTINF:-1 group-title="-",Fetish
+http://185.63.254.139:8000/play/adult-fetish/index.m3u8
+#EXTINF:-1 group-title="-",Gangbang
+http://185.63.254.139:8000/play/adult-gangbang/index.m3u8
+#EXTINF:-1 group-title="-",Gay TV
+http://185.63.254.139:8000/play/adult-gay-tv/index.m3u8
+#EXTINF:-1 group-title="-",Kino XXX
+http://185.63.254.139:8000/play/adult-kinoxxx/index.m3u8
+#EXTINF:-1 group-title="-",MILF TV
+http://185.63.254.139:8000/play/adult-milf/index.m3u8
+#EXTINF:-1 group-title="-",Passie XXX
+http://185.63.254.139:8000/play/adult-passie/index.m3u8
+#EXTINF:-1 group-title="-",Red Lips
+http://185.63.254.139:8000/play/adult-red-lips/index.m3u8
+#EXTINF:-1 group-title="-",Redlight HD
+http://185.63.254.139:8000/play/adult-redlight-hd/index.m3u8
+#EXTINF:-1 group-title="-",Russkaya Noch
+http://185.63.254.139:8000/play/adult-russkaya-noch/index.m3u8
+#EXTINF:-1 group-title="-",Shalun TV
+http://185.63.254.139:8000/play/adult-shalun/index.m3u8
+#EXTINF:-1 group-title="-",XXL
+http://185.63.254.139:8000/play/adult-xxl/index.m3u8
+#EXTINF:-1 group-title="-",XY Max
+http://185.63.254.139:8000/play/adult-xymax/index.m3u8
+#EXTINF:-1 group-title="-",XY Mix
+http://185.63.254.139:8000/play/adult-xymix/index.m3u8
+#EXTINF:-1 group-title="-",XY Plus
+http://185.63.254.139:8000/play/adult-xyplus/index.m3u8
 #EXTINF:-1 group-title="Adulto" tvg-logo="https://www.tvbrowser.org/data/uploads/icons/3489946438aebffec54b07efa9287559.png",DMF
 https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/chunks.m3u8
 #EXTINF:-1 group-title="Adulto" tvg-logo="https://epg.iptvx.one/picons/eroluxe-anal.png",EroLuxe Anal
@@ -41,6 +89,8 @@ http://u.vipl.one/high/ierw63qgf1/1702.m3u8
 http://88.212.15.19/live/test_dorcel_hd_hevc/playlist.m3u8
 #EXTINF:-1 group-title="Erotické" tvg-logo="http://46.36.40.22/7511/extasy4k.png",Extasy 4K
 http://88.212.15.19/live/test_extasy_hd_hevc/playlist.m3u8
+#EXTINF:-1  group-title="Others",arydigital
+http://107.167.16.138:80/arydigital/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",Babes
 https://yokoplus.pages.dev/babes/index.m3u8
 #EXTINF:-1  group-title="Others",BarelyLegal
@@ -93,6 +143,8 @@ http://u.vipl.one/high/hc6s5fzmde/1715.m3u8
 http://u.vipl.one/high/hc6s5fzmde/1691.m3u8
 #EXTINF:-1  group-title="Others",EroLuxe Henati
 http://u.vipl.one/high/hc6s5fzmde/1693.m3u8
+#EXTINF:-1  group-title="Others",EroLuxe Massage
+http://u.vipl.one/high/hc6s5fzmde/1696.m3u8
 #EXTINF:-1  group-title="Others",EroLuxe Parody
 http://u.vipl.one/high/hc6s5fzmde/1718.m3u8
 #EXTINF:-1  group-title="Others",EroLuxe RedHeads
@@ -107,8 +159,8 @@ http://u.vipl.one/high/hc6s5fzmde/1703.m3u8
 http://u.vipl.one/high/hc6s5fzmde/1705.m3u8
 #EXTINF:-1  tvg-logo="https://www.eropuls.de/out/flow/img/shoplogo.png" group-title="Others",Eropuls DE 18+
 https://api.alpaca.t62a.com/hls/9108/stream0.m3u8
-#EXTINF:-1  group-title="Others",EroXXX
-https://yokoplus.pages.dev/eroxxx/index.m3u8
+#EXTINF:-1  group-title="Others",espn3
+http://107.167.16.138:80/espn3/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",Extasy
 https://yokoplus.pages.dev/extasy/index.m3u8
 #EXTINF:-1  group-title="Others",FAHSION TV
@@ -171,8 +223,6 @@ http://200.194.238.229:8383/live/pornclassic/playlist.m3u8
 https://yokoplus.pages.dev/realitykings/index.m3u8
 #EXTINF:-1  group-title="Others",RusskayaNoch
 http://185.23.80.23:8080/RusskayaNoch/index.m3u8
-#EXTINF:-1  group-title="Others",tcm
-http://107.167.16.138:80/tcmhd/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",tennischannel
 http://107.167.16.138:80/tennischannel/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",tntsports 4
@@ -185,16 +235,12 @@ http://216.227.152.34:6061/xxx1/index.m3u8?token=test
 http://216.227.152.34:6061/xxx12/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",XXX 6
 https://dpny6.1234.uno/xxx7adultecstacy/index.m3u8?token=test
-#EXTINF:-1  group-title="Others",xxx10
-http://107.167.16.138:80/xxx10/index.m3u8?token=test
-#EXTINF:-1  group-title="Others",xxx3
-http://107.167.16.138:80/xxx3/index.m3u8?token=test
-#EXTINF:-1  group-title="Others",xxx4
-http://107.167.16.138:80/xxx4/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",yesnetwork
 http://107.167.16.138:80/yesnetworkhd/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",zeeaction
 http://107.167.16.138:80/zeeaction/index.m3u8?token=test
+#EXTINF:-1  group-title="Others",zing
+http://107.167.16.138:80/zing/index.m3u8?token=test
 #EXTINF:-1 group-title="Tv" tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",Private HD
 http://s.only4.tv/5556/index.m3u8?token=diR3Bf9AiQ
 #EXTINF:-1 group-title="Xxx",Hustler TV
@@ -231,16 +277,10 @@ http://u.vipl.one/high/47eurvkpm6/1714.m3u8
 http://u.vipl.one/high/47eurvkpm6/1692.m3u8
 #EXTINF:-1 group-title="Взрослые" tvg-logo="http://epg.cdntv.online/img/1694.png",EroLuxe Japanese
 http://u.vipl.one/high/47eurvkpm6/1694.m3u8
-#EXTINF:-1 group-title="Взрослые" tvg-logo="http://epg.cdntv.online/img/1696.png",EroLuxe Massage
-http://u.vipl.one/high/47eurvkpm6/1696.m3u8
 #EXTINF:-1 group-title="Взрослые" tvg-logo="http://epg.cdntv.online/img/1720.png",EroLuxe Public Agent
 http://u.vipl.one/high/47eurvkpm6/1720.m3u8
-#EXTINF:-1 group-title="Для Взрослых",Babes TV
-http://stream.mcquack.net/55/index.m3u8
 #EXTINF:-1 group-title="Для Взрослых",Barely Legal TV
 http://stream.mcquack.net/289/index.m3u8
-#EXTINF:-1 group-title="Для Взрослых",Blue Hustler
-http://stream.mcquack.net/280/index.m3u8
 #EXTINF:-1 group-title="Для Взрослых",Brazzers TV Europe
 http://stream.mcquack.net/53/index.m3u8
 #EXTINF:-1 group-title="Для Взрослых",Cineman ExExEx
@@ -259,8 +299,6 @@ http://stream.mcquack.net/66/index.m3u8
 http://stream.mcquack.net/290/index.m3u8
 #EXTINF:-1 group-title="Для Взрослых",Private TV
 http://stream.mcquack.net/282/index.m3u8
-#EXTINF:-1 group-title="Для Взрослых",Red Lips
-http://stream.mcquack.net/61/index.m3u8
 #EXTINF:-1 group-title="Для Взрослых",Redlight
 http://stream.mcquack.net/51/index.m3u8
 #EXTINF:-1 group-title="Для Взрослых",Vivid Red
