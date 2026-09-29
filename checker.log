@@ -1,14 +1,14 @@
-2026-09-28 19:15:49,412 [INFO] 🚀 Starting Header-Aware M3U Checker...
-2026-09-28 19:15:50,018 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/cabletv/m3u8/playlist_cable_m3u8.m3u
-2026-09-28 19:15:50,037 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/adult/iptv/m3u8/playlist_xxx_m3u8.m3u
-2026-09-28 19:15:50,042 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/adult/iptv/player/playlist_xxx_http.m3u
-2026-09-28 19:15:50,317 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/sportsiptv/m3u8/playlist_sports_m3u8.m3u
-2026-09-28 19:15:50,319 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/cabletv/player/playlist_cable_http.m3u
-2026-09-28 19:15:50,350 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/worldiptv/m3u8/playlist_world_m3u8.m3u
-2026-09-28 19:15:50,604 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/worldiptv/player/playlist_world_http.m3u
-2026-09-28 19:15:50,618 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/worldiptv/mpd/playlist_world_mpd.m3u
-2026-09-28 19:15:50,618 [INFO] ✅ Loaded 0 source(s); 0 unique channel-names to validate.
-2026-09-28 19:15:50,619 [INFO] 💾 Sorting and writing output playlists...
-2026-09-28 19:15:50,619 [INFO]    → working.m3u (combined, 0 channels)
-2026-09-28 19:15:50,619 [INFO] 🎉 Done! Working channels: 0 | Dead/discarded links: 0
-2026-09-28 19:15:50,619 [INFO] 📁 Files written: 
+2026-09-29 04:18:49,706 [INFO] 🚀 Starting Header-Aware M3U Checker...
+2026-09-29 04:18:50,371 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/adult/iptv/m3u8/playlist_xxx_m3u8.m3u
+2026-09-29 04:18:50,372 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/adult/iptv/player/playlist_xxx_http.m3u
+2026-09-29 04:18:50,372 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/cabletv/m3u8/playlist_cable_m3u8.m3u
+2026-09-29 04:18:50,732 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/cabletv/player/playlist_cable_http.m3u
+2026-09-29 04:18:50,737 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/sportsiptv/m3u8/playlist_sports_m3u8.m3u
+2026-09-29 04:18:50,752 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/worldiptv/m3u8/playlist_world_m3u8.m3u
+2026-09-29 04:18:51,079 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/worldiptv/player/playlist_world_http.m3u
+2026-09-29 04:18:51,115 [WARNING] ⚠️ Failed (509): https://iptv-api.streamingscripts.xyz/worldiptv/mpd/playlist_world_mpd.m3u
+2026-09-29 04:18:51,116 [INFO] ✅ Loaded 0 source(s); 0 unique channel-names to validate.
+2026-09-29 04:18:51,116 [INFO] 💾 Sorting and writing output playlists...
+2026-09-29 04:18:51,116 [INFO]    → working.m3u (combined, 0 channels)
+2026-09-29 04:18:51,116 [INFO] 🎉 Done! Working channels: 0 | Dead/discarded links: 0
+2026-09-29 04:18:51,116 [INFO] 📁 Files written: 
