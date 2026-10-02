@@ -323,8 +323,6 @@ http://181.205.130.194:4000/play/a07c
 http://207.248.3.81:8081/play/a0r4
 #EXTINF:-1 group-title="Others",Disney Junior
 http://207.248.3.81:8081/play/a0qq
-#EXTINF:-1 group-title="Others",Dvojka HD
-http://46.149.191.219:9114/play/a01t
 #EXTINF:-1 group-title="Others",E Entertainment
 http://181.205.130.194:4000/play/a07g
 #EXTINF:-1 group-title="Others",E! Entertainment TV
@@ -409,6 +407,8 @@ http://207.248.3.81:8081/play/a0ne
 http://181.205.130.194:4000/play/a0fb
 #EXTINF:-1 group-title="Others",History Channel HD
 http://207.248.3.81:8081/play/a0q3
+#EXTINF:-1 group-title="Others",Hit List
+http://181.205.130.194:4000/play/a0b0
 #EXTINF:-1 group-title="Others",Home & Health HD
 http://207.248.3.81:8081/play/a0td
 #EXTINF:-1 group-title="Others",HomeandHealth
@@ -429,6 +429,8 @@ http://207.248.3.81:8081/play/a0qc
 http://46.149.191.219:9114/play/a004
 #EXTINF:-1 group-title="Others",Las Estrellas HD
 http://207.248.3.81:8081/play/a0pn
+#EXTINF:-1 group-title="Others",Latin Pop
+http://181.205.130.194:4000/play/a0b1
 #EXTINF:-1 group-title="Others",Lifetime
 http://181.205.130.194:4000/play/a06u
 #EXTINF:-1 group-title="Others",Magic
@@ -469,6 +471,8 @@ http://181.205.130.194:4000/play/a07v
 http://207.248.3.81:8081/play/a0ti
 #EXTINF:-1 group-title="Others",Retro Music TV
 http://46.149.191.219:9114/play/a00k
+#EXTINF:-1 group-title="Others",RT - ESPAÑOL
+http://181.205.130.194:4000/play/a0f8
 #EXTINF:-1 group-title="Others",Senal Colombia
 http://181.205.130.194:4000/play/a08k
 #EXTINF:-1 group-title="Others",Sport 1 HD CZ
