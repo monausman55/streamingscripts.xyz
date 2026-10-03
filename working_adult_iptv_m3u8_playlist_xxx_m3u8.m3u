@@ -7,6 +7,8 @@ http://185.63.254.139:8000/play/adult-blue-hustler/index.m3u8
 http://185.63.254.139:8000/play/adult-brunette/index.m3u8
 #EXTINF:-1 group-title="-",Erotic 5
 http://185.63.254.139:8000/play/adult-erotic-5/index.m3u8
+#EXTINF:-1 group-title="-",Erotic 7
+http://185.63.254.139:8000/play/adult-erotic-7/index.m3u8
 #EXTINF:-1 group-title="-",Erotic 8
 http://185.63.254.139:8000/play/adult-erotic-8/index.m3u8
 #EXTINF:-1 group-title="-",Extasy HD
@@ -23,8 +25,8 @@ http://185.63.254.139:8000/play/adult-gangbang/index.m3u8
 http://185.63.254.139:8000/play/adult-gay-tv/index.m3u8
 #EXTINF:-1 group-title="-",Kino XXX
 http://185.63.254.139:8000/play/adult-kinoxxx/index.m3u8
-#EXTINF:-1 group-title="-",MILF TV
-http://185.63.254.139:8000/play/adult-milf/index.m3u8
+#EXTINF:-1 group-title="-",Passie XXX
+http://185.63.254.139:8000/play/adult-passie/index.m3u8
 #EXTINF:-1 group-title="-",Red Lips
 http://185.63.254.139:8000/play/adult-red-lips/index.m3u8
 #EXTINF:-1 group-title="-",Redlight HD
@@ -99,16 +101,12 @@ http://u.vipl.one/high/ierw63qgf1/1722.m3u8
 http://u.vipl.one/high/ierw63qgf1/1701.m3u8
 #EXTINF:-1 group-title="Adulto" tvg-logo="https://epg.iptvx.one/picons/eroluxe-solo.png",EroLuxe Solo
 http://u.vipl.one/high/ierw63qgf1/1702.m3u8
-#EXTINF:-1 group-title="Erotické" tvg-logo="http://46.36.40.22/7511/Desiretv.png",Desire
-http://88.212.15.19/live/test_desire_hd_hevc/playlist.m3u8
+#EXTINF:-1 group-title="Erotické" tvg-logo="http://46.36.40.22/7511/dorceltv.png",Dorcel TV
+http://88.212.15.19/live/test_dorcel_hd_hevc/playlist.m3u8
 #EXTINF:-1 group-title="Erotické" tvg-logo="http://46.36.40.22/7511/extasy4k.png",Extasy 4K
 http://88.212.15.19/live/test_extasy_hd_hevc/playlist.m3u8
-#EXTINF:-1  group-title="Others",Anal 4K
-http://ielq87ff.megatv.fun/iptv/ZZHYGQ3ZLE6ZHG/12190/index.m3u8
 #EXTINF:-1  group-title="Others",arydigital
 http://107.167.16.138:80/arydigital/index.m3u8?token=test
-#EXTINF:-1  group-title="Others",Babes
-https://yokoplus.pages.dev/babes/index.m3u8
 #EXTINF:-1  group-title="Others",BarelyLegal
 http://185.23.80.23:8080/BarelyLegal/index.m3u8
 #EXTINF:-1  group-title="Others",BlueHustler
@@ -119,16 +117,14 @@ http://107.167.16.138:80/boomerang/index.m3u8?token=test
 https://yokoplus.pages.dev/brazzers/index.m3u8
 #EXTINF:-1  group-title="Others",Brazzers TV Europa
 http://193.239.186.231/BRAZZERS/index.m3u8
-#EXTINF:-1  group-title="Others",Brazzers TV Europe Россия
-http://ielq87ff.megatv.fun/iptv/ZZHYGQ3ZLE6ZHG/910/index.m3u8
 #EXTINF:-1  group-title="Others",BrazzersTV
 http://185.23.80.23:8080/BrazzersTV/index.m3u8
 #EXTINF:-1  group-title="Others",cbsnews
 http://107.167.16.138:80/cbsnewshd/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",channel5
 http://107.167.16.138:80/channel5/index.m3u8?token=test
-#EXTINF:-1  group-title="Others",Devils Film HD
-http://ielq87ff.megatv.fun/iptv/ZZHYGQ3ZLE6ZHG/12137/index.m3u8
+#EXTINF:-1  group-title="Others",Desire
+https://yokoplus.pages.dev/desire/index.m3u8
 #EXTINF:-1  group-title="Others",discovery
 http://107.167.16.138:80/discovery/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",Dorcel
@@ -153,8 +149,8 @@ https://api.alpaca.t62a.com/hls/9108/stream0.m3u8
 https://yokoplus.pages.dev/eroxxx/index.m3u8
 #EXTINF:-1  group-title="Others",espn3
 http://107.167.16.138:80/espn3/index.m3u8?token=test
-#EXTINF:-1  group-title="Others",Exxxotica HD
-http://ielq87ff.megatv.fun/iptv/ZZHYGQ3ZLE6ZHG/2397/index.m3u8
+#EXTINF:-1  group-title="Others",Extasy
+https://yokoplus.pages.dev/extasy/index.m3u8
 #EXTINF:-1  group-title="Others",FAHSION TV
 http://stream.mcquack.net/287/index.m3u8
 #EXTINF:-1  group-title="Others",geonews
@@ -163,10 +159,10 @@ http://107.167.16.138:80/geonews/index.m3u8?token=test
 http://stream.mcquack.net/59/index.m3u8
 #EXTINF:-1  group-title="Others",humtv
 http://107.167.16.138:80/humtv/index.m3u8?token=test
+#EXTINF:-1  group-title="Others",laliga
+http://107.167.16.138:80/laliga/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",Leo
 https://yokoplus.pages.dev/leo/index.m3u8
-#EXTINF:-1  group-title="Others",LeoGold
-https://yokoplus.pages.dev/leogold/index.m3u8
 #EXTINF:-1  group-title="Others",mutv
 http://107.167.16.138:80/mutv/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",MyCamTV Anal
@@ -203,8 +199,6 @@ https://live.mycamtv.com/teen.m3u8
 https://live.mycamtv.com/white.m3u8
 #EXTINF:-1  group-title="Others",MyCamTV Young Girls
 https://live.mycamtv.com/young.m3u8
-#EXTINF:-1  group-title="Others",Naughty America
-http://ielq87ff.megatv.fun/iptv/ZZHYGQ3ZLE6ZHG/6237/index.m3u8
 #EXTINF:-1  group-title="Others",nickjr
 http://107.167.16.138:80/nickjr/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",pbskids
@@ -213,8 +207,6 @@ http://107.167.16.138:80/pbskids/index.m3u8?token=test
 http://200.194.238.229:8383/live/pornclassic/playlist.m3u8
 #EXTINF:-1  group-title="Others",RealityKings
 https://yokoplus.pages.dev/realitykings/index.m3u8
-#EXTINF:-1  group-title="Others",Red TV Hardcore
-http://ielq87ff.megatv.fun/iptv/ZZHYGQ3ZLE6ZHG/6219/index.m3u8
 #EXTINF:-1  group-title="Others",RusskayaNoch
 http://185.23.80.23:8080/RusskayaNoch/index.m3u8
 #EXTINF:-1  group-title="Others",tcm
@@ -247,10 +239,6 @@ http://107.167.16.138:80/yesnetworkhd/index.m3u8?token=test
 http://107.167.16.138:80/zeeaction/index.m3u8?token=test
 #EXTINF:-1  group-title="Others",zing
 http://107.167.16.138:80/zing/index.m3u8?token=test
-#EXTINF:-1  group-title="Others",Русская Ночь
-http://ielq87ff.megatv.fun/iptv/ZZHYGQ3ZLE6ZHG/147/index.m3u8
-#EXTINF:-1  group-title="Others",Русская Ночь orig
-http://ielq87ff.megatv.fun/iptv/ZZHYGQ3ZLE6ZHG/9344/index.m3u8
 #EXTINF:-1 group-title="Tv" tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",Private HD
 http://s.only4.tv/5556/index.m3u8?token=diR3Bf9AiQ
 #EXTINF:-1 group-title="Xxx",Hustler TV

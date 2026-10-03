@@ -323,6 +323,8 @@ http://181.205.130.194:4000/play/a07c
 http://207.248.3.81:8081/play/a0r4
 #EXTINF:-1 group-title="Others",Disney Junior
 http://207.248.3.81:8081/play/a0qq
+#EXTINF:-1 group-title="Others",Dvojka HD
+http://46.149.191.219:9114/play/a01t
 #EXTINF:-1 group-title="Others",E Entertainment
 http://181.205.130.194:4000/play/a07g
 #EXTINF:-1 group-title="Others",E! Entertainment TV
@@ -419,8 +421,6 @@ http://207.248.3.81:8081/play/a0q7
 http://46.149.191.219:9114/play/a01s
 #EXTINF:-1 group-title="Others",JimJam CZ
 http://46.149.191.219:9114/play/a00h
-#EXTINF:-1 group-title="Others",KinoNova HD
-http://78.108.244.134:8899/kinonova
 #EXTINF:-1 group-title="Others",La Red
 http://207.248.3.81:8081/play/a0qx
 #EXTINF:-1 group-title="Others",La Red HD
